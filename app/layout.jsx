@@ -1,8 +1,6 @@
-import { Inter, Rubik } from "next/font/google";
+import { Rubik } from "next/font/google";
 import "./globals.css";
-
-// components
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -15,8 +13,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={rubik.className}>
-        <Navbar />
+        <div class="mx-80 mt-20">
         {children}
+        <Header />
+        </div>
       </body>
     </html>
   );
