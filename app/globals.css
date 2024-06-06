@@ -2,80 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* base styles */
-body {
-    background: #ebf0fa;
-    @apply text-gray-500 m-8;
-  }
-  h1, h2 {
-    @apply font-bold text-primary text-lg;
-  }
-  main {
-    @apply max-w-5xl my-12 mx-auto px-8;
-  }
-  main > h2 {
-    @apply mb-4 pb-2 text-base ;
+@layer base {
+  h1,
+  h2 {
+    @apply font-bold text-primary text-xl;
   }
   p > a {
     @apply text-primary underline;
   }
-  
-  /* nav styles */
-  nav {
-    @apply
-      pb-4
-      border-b-2 border-gray-200
-      flex items-center gap-5 
-      my-10 mx-auto 
-      max-w-5xl;
-  }
-  nav a, nav span {
-    @apply text-gray-500;
-  }
-  nav a:hover {
-    @apply text-black;
-  }
-  main nav {
-    @apply border-0;
-  }
-  
- 
- 
-  
-  /* feedback styles */
-  .error {
-    @apply 
-      border-2 
-      border-red-500 
-      bg-red-300
-      text-red-800 
-      py-1 px-2 
-      rounded-sm
-      block
-      max-w-fit
-      my-4 mx-auto;
-  }
-  
-  
-  
-  /* pill styles */
-  .pill {
-    @apply 
-      py-1 px-2 mt-3
-      inline-block 
-      text-xs font-semibold;
-  }
-  .pill.high {
-    @apply bg-red-300 text-red-600;
-  }
-  .pill.medium {
-    @apply bg-blue-300 text-blue-600;
-  }
-  .pill.low {
-    @apply bg-emerald-300 text-emerald-600;
-  }
-  .card .pill {
-    @apply 
-      absolute bottom-0 right-0 
-      rounded-tl-md;
-  }
+}
+/* nav styles */
+
+nav a:hover {
+  @apply text-black;
+}
+
+
+
