@@ -3,13 +3,9 @@ import Navbar from "./Navbar";
 export default function Header() {
   return (
     <div class="flex flex-col max-w-96">
-      <h1 class="text text-4xl">Nicolien Klein</h1>
-      <h2>junior front-end developer</h2>
-      <p>
-        {`I am pioneering as a front-end developer. Having just completed my
-          front-end development training at Winc Academy, this portfolio is now
-          my first real "personal project".`}
-      </p>
+      <h1 class="mb-3">Nicolien Klein</h1>
+      <h2 class="text-midpurple text-2xl mb-4">Junior Front-End Developer</h2>
+      <p class="text-lg">Pioneering with this portfolio, build with next.js.</p>
 
       <Navbar />
     </div>
