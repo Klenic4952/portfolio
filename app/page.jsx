@@ -1,7 +1,17 @@
+// app/home.jsx is the UI for the '/' URL
+
+import About from "./about/page";
+
+
 export default function Home() {
   return (
-    <main>
-      
-    </main>
+    <div >
+      <main>
+        <section>
+          <About/>
+        </section>
+
+      </main>
+    </div>
   );
 }
