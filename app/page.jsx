@@ -5,11 +5,11 @@ import Projects from "./projects/page";
 
 export default function Home() {
   return (
-    <main class="pt-24 lg:w-1/2 lg:py-24">
-      <section class="my-10">
+    <main id="content" class="pt-24 lg:w-1/2 lg:py-24">
+      <section id="about" class="my-10">
         <About />
       </section>
-      <section>
+      <section id="projects">
         <Projects />
       </section>
     </main>
