@@ -5,12 +5,12 @@ export default function Navbar() {
     <nav class=" lg:block" aria-label="In-page-jump-links">
       <ul class="mt-16 w-max">
         <li>
-          <Link href="/about" class="group flex items-center py-3 active">
+          <Link href="#about" class="group flex items-center py-3 active">
            ABOUT
           </Link>
         </li>
         <li>
-          <Link href="/projects" class="font-bold">
+          <Link href="#projects" class="font-bold">
             PROJECTS
           </Link>
         </li>
