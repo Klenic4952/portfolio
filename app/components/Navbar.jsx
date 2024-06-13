@@ -6,12 +6,12 @@ export default function Navbar() {
       <ul class="mt-16 w-max">
         <li>
           <Link href="#about" class="group flex items-center py-3 active">
-           ABOUT
+           OVER
           </Link>
         </li>
         <li>
           <Link href="#projects" class="font-bold">
-            PROJECTS
+            PROJECTEN
           </Link>
         </li>
       </ul>
