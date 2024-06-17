@@ -10,7 +10,7 @@ export default function Header() {
         </h1>
         <h2 class="text-midpurple text-2xl mb-4">Junior Front-End Developer</h2>
         <p class="text-lg">
-          Aan het pionieren met Next.js en Tailwind om dit portfolio te creëren. 
+            Gepionierd met Next.js en Tailwind om dit portfolio te creëren. 
         </p>
         <Navbar />
       </div>
