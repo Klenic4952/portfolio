@@ -3,7 +3,7 @@ import "./globals.css";
 
 // components
 import Header from "./components/Header";
-import Link from "next/link";
+
 
 const rubik = Rubik({ subsets: ["latin"] });
 
