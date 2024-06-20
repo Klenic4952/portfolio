@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={rubik.classNameName}>
+      <body className={rubik.className}>
         <div className="relative">
           <div className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute">
           </div>
