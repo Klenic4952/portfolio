@@ -19,7 +19,7 @@ export default function About() {
       <p className="mb-4">
         De wereld bevind zich in mijn ervaring momenteel in een interessante transitie. 
         Deze transitie, en dan wat specifieker, de transitie naar een gezond en 
-        duurzaam eetpatroon, maar ook de ontwikkelingen rondom digtitalisering
+        duurzaam eetpatroon, maar ook de ontwikkelingen rondom digitalisering
         hebben mijn interesse.
       </p>
       <p className="mb-4">
