@@ -1,8 +1,8 @@
 export default function Projects() {
   return (
-    <div class="bg-[#1B0F1C] p-10 rounded-xl">
+    <div className="bg-[#1B0F1C] p-10 rounded-xl">
       <h2>PROJECTEN</h2>
-      <p class="text-[#987E9E]">PROJECTEN</p>
+      <p className="text-[#987E9E]">PROJECTEN</p>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit molestiae
         ut unde alias? Molestias perspiciatis dolorem dolorum consequatur ab
