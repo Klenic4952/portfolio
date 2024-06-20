@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Navbar from "./Navbar";
+import NavBar from "./NavBar";
 
 export default function Header() {
   return (
@@ -12,7 +12,7 @@ export default function Header() {
         <p className="text-lg">
             Gepionierd met Next.js en Tailwind om dit portfolio te creëren. 
         </p>
-        <Navbar />
+        <NavBar/>
       </div>
     </header>
   );
