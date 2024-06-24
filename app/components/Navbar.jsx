@@ -7,7 +7,7 @@ const NavBar = () => {
   const activeSection = useActiveSection();
 
   return (
-    <nav className="lg:block">
+    <nav className="lg:block text-lg">
       <ul className="mt-16 w-max">
         <li>
           <Link
@@ -22,6 +22,17 @@ const NavBar = () => {
         </li>
         <li className="hover:font-bold">
           <Link
+            href="#education"
+            className={`group flex items-center py-3 ${
+              activeSection === "education" ? "font-bold" : ""
+            }`}
+          >
+            {activeSection === "education" && <FaCircle className="fill-midpurple mr-3"/>}
+            <span className="group-hover:font-bold">OPLEIDING</span>
+          </Link>
+        </li>
+        <li className="hover:font-bold">
+          <Link
             href="#projects"
             className={`group flex items-center py-3 ${
               activeSection === "projects" ? "font-bold" : ""
@@ -29,17 +40,6 @@ const NavBar = () => {
           >
             {activeSection === "projects" && <FaCircle className="fill-midpurple mr-3"/>}
            <span className="group-hover:font-bold">PROJECTEN</span>
-          </Link>
-        </li>
-        <li className="hover:font-bold">
-          <Link
-            href="#experience"
-            className={`group flex items-center py-3 ${
-              activeSection === "experience" ? "font-bold" : ""
-            }`}
-          >
-            {activeSection === "experience" && <FaCircle className="fill-midpurple mr-3"/>}
-            <span className="group-hover:font-bold">WERKERVARING</span>
           </Link>
         </li>
       </ul>
