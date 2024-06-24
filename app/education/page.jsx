@@ -15,9 +15,8 @@ export default function Education() {
       <Link href="https://certificates.wincacademy.com/655599e5-d0a0-4c5a-8377-353d4589c4d5#gs.9i91ce" target="blank">
         <Image src={Certificate} alt="Certificate Front-end Development"  />
       </Link>
-      <h3 className="font-bold mt-10">Vaardigheden/kennis</h3>
       </p>
-      
+      <h3 className="font-bold mt-10">Vaardigheden/kennis</h3>
     </div>
   );
 }
