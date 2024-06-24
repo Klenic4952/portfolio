@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Certificate from "./certificate.png";
+import Skills from "../components/Skills";
 
 export default function Education() {
   return (
@@ -16,7 +17,7 @@ export default function Education() {
       </Link>
       <h3 className="font-bold mt-10">Vaardigheden/kennis</h3>
       </p>
-      
+      <Skills/>
     </div>
   );
 }
