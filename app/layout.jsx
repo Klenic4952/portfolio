@@ -1,11 +1,11 @@
-import { Rubik } from "next/font/google";
+import { Inter, Rubik } from "next/font/google";
 import "./globals.css";
 
 // components
 import Header from "./components/Header";
 
 
-const rubik = Rubik({ subsets: ["latin"] });
+const rubik = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Nicolien Klein",
