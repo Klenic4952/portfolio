@@ -9,7 +9,7 @@ export default function Header() {
           <Link href="/">Nicolien Klein</Link>
         </h1>
         <h2 className="text-midpurple text-2xl mb-4">Junior Front-End Developer</h2>
-        <p className="text-lg">
+        <p className="text-[17px]">
             Gepionierd met Next.js en Tailwind om dit portfolio te creëren. 
         </p>
         <NavBar/>
