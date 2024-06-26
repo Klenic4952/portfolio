@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Certificate from "./certificate.png";
-
+import Skills from "../components/Skills"
 
 export default function Education() {
   return (
@@ -16,7 +16,8 @@ export default function Education() {
         <Image src={Certificate} alt="Certificate Front-end Development"  />
       </Link>
       </p>
-      <h3 className="font-bold mt-10">Vaardigheden/kennis</h3>
-    </div>
+      
+      <Skills/>
+      </div>
   );
 }
