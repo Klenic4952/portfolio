@@ -1,5 +1,5 @@
 import React from "react";
-import { Icons } from "../icons";
+import { Icons } from "../education/icons";
 
 const skillsWinc = [
   { name: "HTML5", icon: Icons.html5 },
@@ -30,7 +30,7 @@ const skillsCurrent = [
 const Skills = () => {
   return (
     <>
-      <h3 className="font-bold mt-12">Vaardigheden/kennis uit de opleiding</h3>
+      <h3 className="font-bold mt-12">Vaardigheden uit de opleiding</h3>
       <div className="flex flex-wrap justify-center items-center gap-4 p-4 mt-5">
         {skillsWinc.map((skill, index) => {
           const IconComponent = skill.icon;
@@ -42,7 +42,7 @@ const Skills = () => {
           );
         })}
       </div>
-      <h3 className="font-bold mt-10">Wat ik nu leer</h3>
+      <h3 className="font-bold mt-10">Wat ik op dit moment leer</h3>
       <div className="flex flex-wrap justify-center items-center gap-4 p-4 mt-5">
         {skillsCurrent.map((skill, index) => {
           const IconComponent = skill.icon;
