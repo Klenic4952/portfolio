@@ -1,10 +1,10 @@
 "use client";
 import Link from "next/link";
-import useActiveSection from "../hooks/useActiveSection";
+import UseActiveSection from "../hooks/UseActiveSection";
 import { FaCircle } from "react-icons/fa";
 
 const NavBar = () => {
-  const activeSection = useActiveSection();
+  const activeSection = UseActiveSection();
 
   return (
     <nav className="lg:block text-lg">
