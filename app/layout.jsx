@@ -5,7 +5,7 @@ import "./globals.css";
 import Header from "./components/Header";
 
 
-const rubik = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Nicolien Klein",
@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={rubik.className}>
+      <body className={inter.className}>
         <div className="relative">
           <div className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute">
           </div>
