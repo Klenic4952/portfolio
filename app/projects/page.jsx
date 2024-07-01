@@ -1,6 +1,6 @@
 import Image from "next/image";
-import EventApp from "./event_app.png";
-import RecipeApp from "./recipe_checker.png"
+import EventApp from "./event_app.jpeg";
+import RecipeApp from "./recipe_checker.jpeg"
 
 export default function Projects() {
   return (
