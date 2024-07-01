@@ -1,0 +1,27 @@
+{
+"skillswinc" : [
+    { "name": "HTML5", "icon": "html5" },
+    { "name": "CSS3", "icon": "css" },
+    { "name": "Sass", "icon": "sass" },
+    { "name": "JavaScript", "icon": "javascript" },
+    { "name": "React", "icon": "react" },
+    { "name": "Chakra UI", "icon": "chakra" },
+    { "name": "Figma", "icon": "figma" },
+    { "name": "Responsive Web Design", "icon": "rwd" },
+    { "name": "NPM", "icon": "npm" },
+    { "name": "Nodejs", "icon": "node" },
+    { "name": "Windows", "icon": "windows" },
+    { "name": "PowerShell", "icon": "powershell" },
+    { "name": "VS Code", "icon": "vscode" },
+    { "name": "GitHub", "icon": "github" },
+    { "name": "Git", "icon": "git" },
+    { "name": "Postman", "icon": "postman" },
+    { "name": "Netlify", "icon": "netlify" }
+],
+  
+"skillscurrent" : [
+    { "name": "Nextjs", "icon": "next" },
+    { "name": "Tailwind CSS", "icon": "tailwind" },
+    { "name": "WordPress", "icon":"wordpress" }
+  ]
+}
