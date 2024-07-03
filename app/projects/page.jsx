@@ -16,7 +16,7 @@ export default function Projects() {
           gekoppeld aan My JSON Server.
         </p>
         <a href="https://react-event-app-2024.netlify.app/" target="blank">
-          <Image src={EventApp} alt="Event App" />
+          <Image src={EventApp} alt="Event App" quality={100} />
         </a>
       </div>
       <div>
@@ -29,7 +29,7 @@ export default function Projects() {
           informatie met betrekking tot het gekozen recept getoond. 
         </p>
         <a href="https://recipe-checker-app-2023.netlify.app/" target="blank">
-          <Image src={RecipeApp} alt="Event App" />
+          <Image src={RecipeApp} alt="Event App" quality={100} />
         </a>
       </div>
     </div>
