@@ -17,7 +17,7 @@ export default async function SkillsList() {
   return (
     <>
       <h3 className="font-bold mt-12">Vaardigheden uit de opleiding</h3>
-      <div className="flex flex-wrap justify-center items-center gap-4 p-4 mt-5">
+      <div className="flex flex-wrap gap-4 p-4 mt-5">
         {skillswinc.map((skill) => {
           const IconComponent = Icons[skill.icon];
           return (
@@ -31,7 +31,7 @@ export default async function SkillsList() {
         })}
       </div>
       <h3 className="font-bold mt-12">Vaardigheden uit de opleiding</h3>
-      <div className="flex flex-wrap justify-center items-center gap-4 p-4 mt-5">
+      <div className="flex flex-wrap gap-4 p-4 mt-5">
         {skillscurrent.map((skill) => {
           const IconComponent = Icons[skill.icon];
           return (
