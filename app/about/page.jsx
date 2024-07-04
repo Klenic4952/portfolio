@@ -1,18 +1,19 @@
 export default function About() {
   return (
-    <div className="bg-[#DBAA78] p-10 rounded-xl sticky top-0 z-20 text-[17px]">
+    <div className="bg-[#DBAA78] p-10 rounded-xl sticky top-0 z-20 text-[15px]">
       <h2 className="lg:sr-only">OVER MIJ</h2>
       <p className="mb-4">
-        Na een loopbaan van bijna 25 jaar in de financiële dienstverlening, startte ik mijn 
-        eigen praktijk als voedingscoach. Met behulp van WordPress maakte ik de website voor
+        Na een loopbaan van bijna 25 jaar in de financiële dienstverlening, startte ik een 
+        praktijk als voedingscoach. Met behulp van WordPress maakte ik de website voor
         mijn praktijk SMART Voedingsadvies. Dit wekte een nieuwe interesse tot leven. Voor ik
         het wist had ik de opleiding Front-End Development geboekt bij Winc Academy.
       </p>
       <p className="mb-4">
-        Beide keuzes waren overigens ook weer niet 180 graden anders dan voorheen. Ik werkte als 
+        Beide keuzes waren ook weer niet 180 graden anders dan voorheen. Ik werkte als 
         financieel adviseur dagelijks met klanten. Daarnaast heeft digitalisering mijn interesse en gaat 
-        het me ook makkelijk af. Ik was handig met, regelmatig nieuwe, systemen en hielp daarbij ook 
-        nog wel eens een collega.
+        het me makkelijk af. Ik vind snel mijn weg met software en andere systemen en was daarom
+        soms ook vraagbaak voor anderen. Wat daarnaast mijn aandacht heeft, zijn de 
+        duurzaamheidsvraagstukken die er zijn voor zowel voeding als digitalisering. 
       </p>
       <p className="mb-4">
         Na het behalen van mijn certificaat in mei 2024 bij Winc Academy, heb ik dit portfolio
@@ -30,8 +31,7 @@ export default function About() {
       <p>
         Ik sluit niet uit dat ik naast mijn praktijk SMART Voedingsadvies, ook 
         aan de slag ga met het maken van websites. Of wat er anders maar op mijn pad
-        komt op het gebied van digitalisering. De komende tijd ga ik daar verder 
-        mee pionieren. 
+        komt. De komende tijd ga ik daar verder mee pionieren. 
       </p>
     </div>
   );
