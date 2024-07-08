@@ -8,12 +8,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        beige: '#FDEACF',
-        brown: '#DBAA78',
-        purplelight: '#987E9E',
-        midpurple: '#966E9E',
-        purpledark: '#1B0F1C'
-      }
+        beigelight: "#FFF1DD",
+        beige: "#FDEACF",
+        brown: "#DBAA78",
+        purplelight: "#987E9E",
+        midpurple: "#966E9E",
+        purpledark: "#1B0F1C",
+      },
     },
   },
   plugins: [],
