@@ -16,30 +16,30 @@ export default async function SkillsList() {
 
   return (
     <>
-      <h3 className="font-bold mt-12">Vaardigheden uit de opleiding</h3>
+      <h3 className="font-bold mt-12 text-[20px]">Vaardigheden uit de opleiding</h3>
       <div className="flex flex-wrap gap-4 p-4 mt-5">
         {skillswinc.map((skill) => {
           const IconComponent = Icons[skill.icon];
           return (
             <div key={skill.id} className="flex flex-col items-center">
               {IconComponent && (
-                <IconComponent className="w-12 h-12 text-purpledark" />
+                <IconComponent className="w-12 h-12 text-beige" />
               )}
-              <span className="mt-2 text-sm">{skill.name}</span>
+              <span className="mt-2 text-sm font-semibold">{skill.name}</span>
             </div>
           );
         })}
       </div>
-      <h3 className="font-bold mt-12">Vaardigheden uit de opleiding</h3>
+      <h3 className="font-bold mt-12 text-[20px]">Nu mee aan het pionieren</h3>
       <div className="flex flex-wrap gap-4 p-4 mt-5">
         {skillscurrent.map((skill) => {
           const IconComponent = Icons[skill.icon];
           return (
             <div key={skill.id} className="flex flex-col items-center">
               {IconComponent && (
-                <IconComponent className="w-12 h-12 text-purpledark" />
+                <IconComponent className="w-12 h-12 text-beige" />
               )}
-              <span className="mt-2 text-sm">{skill.name}</span>
+              <span className="mt-2 text-sm font-semibold">{skill.name}</span>
             </div>
           );
         })}
