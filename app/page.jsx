@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import About from "./about/page";
 import Education from "./education/page";
 import Projects from "./projects/page";
+import Contact from "./contact/page";
 import Loading from "./loading";
 
 export default function Home() {
@@ -27,6 +28,12 @@ export default function Home() {
           className="mb-16 scroll-mt-16 md:mb-24 lg:scroll-mt-24"
         >
           <Projects />
+        </section>
+        <section
+          id="contact"
+          className="mb-16 scroll-mt-16 md:mb-24 lg:scroll-mt-24"
+        >
+          <Contact/>
         </section>
       </Suspense>
     </main>
