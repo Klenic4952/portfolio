@@ -42,6 +42,17 @@ const NavBar = () => {
            <span className="group-hover:font-bold">PROJECTEN</span>
           </Link>
         </li>
+        <li className="hover:font-bold">
+          <Link
+            href="#contact"
+            className={`group flex items-center py-3 ${
+              activeSection === "contact" ? "font-bold" : ""
+            }`}
+          >
+            {activeSection === "contact" && <FaCircle className="fill-midpurple mr-3"/>}
+           <span className="group-hover:font-bold">CONTACT</span>
+          </Link>
+        </li>
       </ul>
     </nav>
   );
