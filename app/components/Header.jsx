@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg: justify-between lg:py-24">
+    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/3 lg:flex-col lg: justify-between lg:py-24">
       <div>
         <h1 className="mb-3">
           <Link href="/">Nicolien Klein</Link>
@@ -14,7 +14,7 @@ export default function Header() {
           Junior Front-End Developer
         </h2>
         <p className="text-[17px]">
-          Gepionierd met Next.js en Tailwind om dit portfolio te creëren.
+          Nu aan het pionieren met Next.js.
         </p>
         <NavBar />
       </div>
