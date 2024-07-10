@@ -11,8 +11,10 @@ async function getSkills(skills) {
 }
 
 export default async function SkillsList() {
-  const skillswinc = await getSkills("skillswinc");
-  const skillscurrent = await getSkills("skillscurrent");
+  const [skillswinc, skillscurrent] = await Promise.all([
+    getSkills("skillswinc"),
+    getSkills("skillscurrent")
+  ]);
 
   return (
     <>
