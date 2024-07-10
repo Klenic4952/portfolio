@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Certificate from "./certificate.png";
 import SkillsList from "./SkillsList";
-
+import { Suspense } from "react";
+import Loading from "../loading";
 
 export default function Education() {
   return (
@@ -29,9 +30,9 @@ export default function Education() {
           }}
         />
       </Link>
-      
+      <Suspense fallback={<Loading />}>
         <SkillsList />
-      
+      </Suspense>
     </div>
   );
 }
