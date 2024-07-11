@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+
 // components
 import Header from "./components/Header";
 
@@ -10,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Nicolien Klein",
   description:
-    "Nicolien Klein is aan het pionieren als front-end webdeveloper, met speciale interesse voor leuke kleurencombinaties",
+    "Nicolien Klein pioniert als front-end webdeveloper",
 };
 
 export default function RootLayout({ children }) {
