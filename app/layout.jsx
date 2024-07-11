@@ -10,9 +10,24 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Nicolien Klein",
-  description:
-    "Nicolien Klein pioniert als front-end webdeveloper",
+  description: "Nicolien Klein pioniert als front-end webdeveloper",
+  icons: {
+    icon: [
+      { rel: 'apple-touch-icon', sizes: '180x180', url: '/apple-touch-icon.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', url: '/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', url: '/favicon-16x16.png' }
+    ],
+    manifest: '/site.webmanifest',
+    maskIcon: { rel: 'mask-icon', url: '/safari-pinned-tab.svg', color: '#1b0f1c' }
+  },
+  msapplication: {
+    TileColor: '#603cba'
+  },
+  other: [
+    { name: 'theme-color', content: '#fff1dd' }
+  ]
 };
+
 
 export default function RootLayout({ children }) {
   return (
