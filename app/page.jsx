@@ -5,9 +5,9 @@ import About from "./about/page";
 import Education from "./education/page";
 import Projects from "./projects/page";
 import Contact from "./contact/page";
+import Experience from "./experience/page";
 import Loading from "./loading";
-import Head from "next/head";
-import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -32,6 +32,14 @@ export default function Home() {
       >
         <Suspense fallback={<Loading />}>
           <Projects />
+        </Suspense>
+      </section>
+      <section
+        id="experience"
+        className="mb-16 scroll-mt-16 md:mb-24 lg:scroll-mt-24"
+      >
+        <Suspense fallback={<Loading />}>
+          <Experience />
         </Suspense>
       </section>
       <section
