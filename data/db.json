@@ -9,7 +9,7 @@
     { "id": "7", "name": "Figma", "icon": "figma" },
     { "id": "8", "name": "Responsive Web Design", "icon": "rwd" },
     { "id": "9", "name": "NPM", "icon": "npm" },
-    { "id": "10", "name": "Nodejs", "icon": "node" },
+    { "id": "10", "name": "Node.js", "icon": "node" },
     { "id": "11", "name": "Windows", "icon": "windows" },
     { "id": "12", "name": "PowerShell", "icon": "powershell" },
     { "id": "13", "name": "VS Code", "icon": "vscode" },
@@ -20,7 +20,7 @@
   ],
 
   "skillscurrent": [
-    { "id": "1", "name": "Nextjs", "icon": "next" },
+    { "id": "1", "name": "Next.js", "icon": "next" },
     { "id": "2", "name": "Tailwind CSS", "icon": "tailwind" },
     { "id": "3", "name": "WordPress", "icon": "wordpress" }
   ]
