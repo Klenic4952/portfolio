@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import CV from "./cv.png";
+
 
 export default function Experience () {
     return (
@@ -12,9 +12,9 @@ export default function Experience () {
           om mijn eigen weg te gaan. Check mijn CV voor mijn profiel en
           mijn werkervaring tot nu toe. 
         </p>
-        <Link href="/app/experience/cv.png">
+        <Link href="/Image/cv.pdf" target="blank" rel="noopener noreferrer">
         <Image
-          src={CV}
+          src="/Image/cv.png"
           alt="CV"
           width={354}
           height={500}
