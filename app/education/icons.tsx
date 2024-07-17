@@ -1,5 +1,6 @@
 import dynamic from 'next/dynamic';
 
+//icons education
 const FaHtml5 = dynamic(() => import("react-icons/fa").then(mod => mod.FaHtml5));
 const FaCss3Alt = dynamic(() => import("react-icons/fa").then(mod => mod.FaCss3Alt));
 const FaSass = dynamic(() => import("react-icons/fa").then(mod => mod.FaSass));
@@ -22,6 +23,7 @@ const SiNetlify = dynamic(() => import("react-icons/si").then(mod => mod.SiNetli
 const VscVscode = dynamic(() => import("react-icons/vsc").then(mod => mod.VscVscode));
 const PiDevicesLight = dynamic(() => import("react-icons/pi").then(mod => mod.PiDevicesLight));
 const RiNextjsFill = dynamic(() => import("react-icons/ri").then(mod => mod.RiNextjsFill));
+
 
 export const Icons = {
     html5: FaHtml5,
