@@ -14,7 +14,7 @@ export default function Header() {
           Junior Front-End Developer
         </h2>
         <p className="text-[17px]">
-          Nu aan het pionieren met Next.js.
+          Op ontdekkingstocht in ICT
         </p>
         <NavBar />
       </div>
