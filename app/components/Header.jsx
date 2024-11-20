@@ -7,13 +7,13 @@ export default function Header() {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/3 lg:flex-col lg: justify-between lg:py-24">
       <div className="p-4 lg:p-0">
-        <h1 className="mb-3">
+        <h1 className="text-4xl md:text-5xl mb-3">
           <Link href="/">Nicolien Klein</Link>
         </h1>
-        <h2 className="text-midpurple text-2xl mb-4">
+        <h2 className="text-midpurple text-2xl mt-3 mb-4">
           Junior Front-End Developer
         </h2>
-        <p className="text-[17px]">
+        <p className="text-[17px] mt-4 font-semibold">
           Op ontdekkingstocht in ICT
         </p>
         <NavBar />
