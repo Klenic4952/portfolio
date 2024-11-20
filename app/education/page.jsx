@@ -7,8 +7,10 @@ import Loading from "../loading";
 
 export default function Education() {
   return (
-    <div className="bg-midpurple p-10 rounded-xl text-[17px]">
-      <h2 className="lg:sr-only">OPLEIDING</h2>
+    <div className="bg-midpurple p-8 pt-5 lg:p-10 rounded-xl text-[17px]">
+      <div className="sticky top-0 -mx-2 px-3 pt-5 pb-2 mb-4 bg-midpurple border-b-2 border-black md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+        <h2 className="lg:sr-only">OPLEIDING</h2>
+      </div>
       <p className="text-purpledark">
         In mei 2024 slaagde ik voor de opleiding Front-end Development bij Winc
         Academy. Check hieronder mijn Front-end certificaat.

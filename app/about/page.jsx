@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <div className="bg-[#DBAA78] px-8 pb-8 lg:p-8 rounded-xl text-[17px]">
-      <div className="sticky top-0 -mx-2 px-3 pt-5 pb-1 mb-4 bg-[#DBAA78] border-b-2 border-black md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+    <div className="bg-[#DBAA78] px-8 p-8 pt-5 lg:p-10 rounded-xl text-[17px]">
+      <div className="sticky top-0 -mx-2 px-3 pt-5 pb-2 mb-4 bg-[#DBAA78] border-b-2 border-black md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="lg:sr-only pl-2 pb-2">OVER MIJ</h2>
       </div>
       <div className="p-2 rounded-xl border-solid border-4 border-beige">
