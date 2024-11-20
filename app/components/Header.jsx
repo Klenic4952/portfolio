@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 pl-3 pt-2 pb-4 w-full z-50 lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/3 lg:flex-col lg: justify-between lg:py-24 bg-beige">
+    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/3 lg:flex-col lg: justify-between lg:py-24">
       <div className="p-4 lg:p-0">
         <h1 className="mb-3">
           <Link href="/">Nicolien Klein</Link>

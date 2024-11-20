@@ -1,8 +1,8 @@
 export default function About() {
   return (
-    <div className="bg-[#DBAA78] p-5 rounded-xl sticky top-0 z-20 text-[17px]">
+    <div className="bg-[#DBAA78] p-8 rounded-xl sticky top-0 z-20 text-[17px]">
       <h2 className="lg:sr-only pl-2 pb-2">OVER MIJ</h2>
-      <div className="rounded-xl border-solid border-4 border- border-beige">
+      <div className="p-2 rounded-xl border-solid border-4 border- border-beige">
       <p className="mb-4 pt-2 px-3">
         Na een loopbaan van bijna 25 jaar als adviseur in de financiële dienstverlening, startte 
         ik een praktijk als gewichtsconsulent. Met WordPress maakte ik de website voor
