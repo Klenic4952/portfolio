@@ -7,7 +7,7 @@ const NavBar = () => {
   const activeSection = UseActiveSection();
  
   return (
-    <nav className="lg:block text-lg">
+    <nav className="nav hidden lg:block text-lg">
       <ul className="mt-16 w-max">
         <li>
           <Link
