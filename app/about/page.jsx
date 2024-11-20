@@ -1,10 +1,10 @@
 export default function About() {
   return (
-    <div className="bg-[#DBAA78] px-8 pb-8 lg:p-8 rounded-xl sticky top-0 z-20 text-[17px]">
+    <div className="bg-[#DBAA78] px-8 pb-8 lg:p-8 rounded-xl text-[17px]">
       <div className="sticky top-0 -mx-2 px-3 pt-5 pb-1 mb-4 bg-[#DBAA78] border-b-2 border-black md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="lg:sr-only pl-2 pb-2">OVER MIJ</h2>
       </div>
-      <div className="p-2 rounded-xl border-solid border-4 border- border-beige">
+      <div className="p-2 rounded-xl border-solid border-4 border-beige">
         <p className="mb-4 pt-2 px-3">
           Na een loopbaan van bijna 25 jaar als adviseur in de financiële
           dienstverlening, startte ik een praktijk als gewichtsconsulent. Met
