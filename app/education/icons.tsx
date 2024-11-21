@@ -23,6 +23,7 @@ const SiNetlify = dynamic(() => import("react-icons/si").then(mod => mod.SiNetli
 const VscVscode = dynamic(() => import("react-icons/vsc").then(mod => mod.VscVscode));
 const PiDevicesLight = dynamic(() => import("react-icons/pi").then(mod => mod.PiDevicesLight));
 const RiNextjsFill = dynamic(() => import("react-icons/ri").then(mod => mod.RiNextjsFill));
+const FaElementor = dynamic(() => import("react-icons/fa6").then(mod => mod.FaElementor));
 
 
 export const Icons = {
@@ -36,6 +37,7 @@ export const Icons = {
     npm: FaNpm,
     node: FaNode,
     wordpress: FaWordpress,
+    elementor: FaElementor,
     javascript: SiJavascript,
     chakra: SiChakraui,
     powershell: SiPowershell,
