@@ -7,38 +7,48 @@ export default function About() {
       <div className="p-2 rounded-xl border-solid border-4 border-beige">
         <p className="mb-4 pt-2 px-3">
           Na een loopbaan van bijna 25 jaar als adviseur in de financiële
-          dienstverlening, startte ik een praktijk als gewichtsconsulent. Met
-          WordPress maakte ik de website voor mijn praktijk SMART
-          Voedingsadvies. Dit vond ik zo boeiend, dat ik bij Winc Academy de
-          opleiding Front-End Development heb gevolgd.
+          dienstverlening, besloot ik mijn passie te volgen en startte ik een
+          praktijk als Gewichtsconsulent. Voor mijn praktijk, SMART Voedingsadvies,
+          creëerde ik een website met WordPress. Dit vond ik zo boeiend dat ik besloot
+          een opleiding Front-End Development te volgen bij Winc Academy.
         </p>
         <p className="mb-4 px-3">
-          In het eerste opzicht lijkt dat een 180 graden andere keuze, maar qua
-          vaardigheden en competenties past het allebei bij mij. Ik vond het als
-          financieel adviseur altijd erg leuk om klanten te adviseren. Daarbij
-          vond ik snel mijn weg in systemen en software, wat me in de financiele
-          dienstverlening ook goed van pas kwam.
+          Op het eerste gezicht lijkt dit misschien een drastische carrièreswitch, 
+          maar de vaardigheden en competenties overlappen meer dan je zou denken.
+          Als financieel adviseur haalde ik veel voldoening uit het helpen van klanten 
+          met complexe onderwerpen. Daarnaast was ik altijd handig met systemen en software, 
+          wat goed van pas kwam in de financiële dienstverlening. 
+          Als Gewichtsconsulent begeleid ik mensen op het gebied 
+          van gezond eten waarbij mijn digitale vaardighed opnieuw nuttig bleken. 
+          Zo ontwierp ik niet alleen een website, maar maakte ik ook gebruik van een 
+          online intakeformulier, online agenda en nieuwsbrief.
         </p>
         <p className="mb-4 px-3">
-          Na het behalen van mijn certificaat in mei 2024 bij Winc Academy, heb
-          ik dit portfolio gemaakt met Next.js en Tailwind. Daarna heb ik in
-          WordPress de website voor mijn praktijk opnieuw gebouwd met WordPress
-          en Elementor. Ook deze vind je in dit portfolio. Bij het maken van
-          websites gaat mijn aandacht vaak uit naar het kleurgebruik. Ik maak
-          daarbij gebruik van http://colormind.io/ en https://coolors.co/.
+          In mei 2024 haalde ik mijn certificaat Front-End Development 
+          bij Winc Academy.Daarna maakte ik dit portfolio met Next.js en Tailwind. 
+          Vervolgens heb ik de website voor mijn praktijk opnieuw opgebouwd
+          met WordPress en Elementor, die ook in dit portfolio te vinden is.
         </p>
         <p className="mb-4 px-3">
-          Naast mijn interesse voor coderen, digitalisering en eten, kan ik erg
-          genieten van de natuur. Ik woon met mijn gezin dichtbij de natuur en
-          wandel zo de Drentse heide op. Wandelen is voor mij een fijne manier
-          om te bewegen en te ontspannen.
+          Naast mijn interesse in het coachen en begeleiden van mensen, (gezond)
+          eten en ICT, geniet ik enorm van de natuur. Ik woon met mijn gezin 
+          dichtbij de natuur en wandel regelmatig op de Drentse heide. Wandelen 
+          is voor mij een geweldige manier om te bewegen en te ontspannen.
         </p>
         <p className=" mb-4 px-3">
-          Wat werken voor mij nog steeds het leukst maakt, is om ingewikkelde
-          dingen voor mensen makkelijker te maken. ICT is daarbij voor mij een
-          nieuw werkveld waar ik met veel interesse kennis mee gemaakt heb. Het
-          is leuk om mensen te helpen om een mooie website te realiseren. Maar
-          ik zou ook goed op mijn plek zijn in een ICT-Servicedesk omgeving.
+          Wat ik het leukst vind in mijn werk, is ingewikkelde
+          zaken eenvoudiger maken voor mensen. ICT is voor mij een
+          nieuw werkveld waarmee ik met veel interesse kennis heb gemaakt. 
+          Het geeft me als Gewichtsconsulent veel voldoening om mensen te helpen een gezonde 
+          relatie met eten en zichzelf ontwikkelen. Daarnaast lijkt het me ook leuk 
+          om anderen te helpen met het realiseren van een mooie website. Een rol op een 
+          ICT-gerelateerde Servicedesk of als Digicoach zou ook goed bij me passen.
+          Kort samengevat: ik ben een combinatie van sociale en communicatieve vaardigheden
+          met een analytische en probleemoplossende aanpak en de nodige vasthoudendheid.
+        </p>
+        <p className=" mb-4 px-3">
+          Kort samengevat: je vindt in mij een combinatie van sociale en communicatieve vaardigheden
+          met een analytische en probleemoplossende aanpak en de nodige vasthoudendheid.
         </p>
       </div>
     </div>
