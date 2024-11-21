@@ -18,7 +18,7 @@ export default function Header() {
         </p>
         <NavBar />
       </div>
-      <ul className="ml-1 mt-8 flex items-center">
+      <ul className="pl-4 ml-1 mt-8 flex items-center">
         <li className="mr-5 text-xs shrink-0">
           <a className="block" href="https://www.linkedin.com/in/nicolien-klein/" target="blank" >
             <FaLinkedin className="h-8 w-8 text-purpledark" />
