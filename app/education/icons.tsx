@@ -11,6 +11,7 @@ const FaFigma = dynamic(() => import("react-icons/fa").then(mod => mod.FaFigma))
 const FaNpm = dynamic(() => import("react-icons/fa").then(mod => mod.FaNpm));
 const FaNode = dynamic(() => import("react-icons/fa").then(mod => mod.FaNode));
 const FaWordpress = dynamic(() => import("react-icons/fa").then(mod => mod.FaWordpress));
+const FaElementor = dynamic(() => import("react-icons/fa6").then(mod => mod.FaElementor));
 
 const SiJavascript = dynamic(() => import("react-icons/si").then(mod => mod.SiJavascript));
 const SiChakraui = dynamic(() => import("react-icons/si").then(mod => mod.SiChakraui));
@@ -23,7 +24,6 @@ const SiNetlify = dynamic(() => import("react-icons/si").then(mod => mod.SiNetli
 const VscVscode = dynamic(() => import("react-icons/vsc").then(mod => mod.VscVscode));
 const PiDevicesLight = dynamic(() => import("react-icons/pi").then(mod => mod.PiDevicesLight));
 const RiNextjsFill = dynamic(() => import("react-icons/ri").then(mod => mod.RiNextjsFill));
-const FaElementor = dynamic(() => import("react-icons/fa6").then(mod => mod.FaElementor));
 
 
 export const Icons = {
@@ -47,5 +47,5 @@ export const Icons = {
     netlify: SiNetlify,
     vscode: VscVscode,
     rwd: PiDevicesLight,
-    next: RiNextjsFill,
+    next: RiNextjsFill
 };
