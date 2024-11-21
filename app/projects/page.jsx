@@ -1,6 +1,7 @@
 import Image from "next/image";
 import EventApp from "./event_app.png";
 import RecipeApp from "./recipe_checker.png";
+import SmartWebsite from "./smartwp.png";
 
 export default function Projects() {
   return (
@@ -70,6 +71,37 @@ export default function Projects() {
           </p>
         </div>
       </div>
+      <div>
+        <div className="mt-12">
+          <h3 className="text-midpurple font-bold text-center text-[24px]">
+            SMART Voedingsadvies
+          </h3>
+          <a href="https://smartvoedingsadvies.nl/" target="blank">
+            <Image
+              src={SmartWebsite}
+              alt="SMART Voedingsadvies"
+              width={550}
+              height={374}
+              className="border-solid border-8 border-midpurple rounded-lg mx-auto mt-10"
+              sizes="(min-width: 1340px) 325px, (min-width: 1040px) calc(30vw - 71px), (min-width: 780px) calc(70vw - 123px), calc(70vw - 90px)"
+              style={{
+                width: "65%",
+                height: "auto",
+              }}
+            />
+          </a>
+        </div>
+        <div>
+          <p className="text-beigelight my-8">
+            Deze website voor mijn praktijk SMART Voedingsadvies heb ik gemaakt
+            na het voltooien van de opleiding. Ik heb de website gemaakt met WordPress 
+            en Elementor. Als basis heb ik voor het Blocksy-Theme gekozen. Daarbij 
+            heb ik uiteraard geen standaard templates gebruikt, maar zelf de 
+            pagina`s opgebouwd. Waar nodig heb ik de CSS naar eigen wens aangepast. 
+          </p>
+        </div>
+      </div>
+    
     </div>
   );
 }
