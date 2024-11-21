@@ -25,21 +25,20 @@ export default function About() {
         </p>
         <p className="mb-4 px-2 lg:px-3">
           In mei 2024 haalde ik mijn certificaat Front-End Development 
-          bij Winc Academy.Daarna maakte ik dit portfolio met Next.js en Tailwind. 
+          bij Winc Academy. Daarna maakte ik dit portfolio met Next.js en Tailwind. 
           Vervolgens heb ik de website voor mijn praktijk opnieuw opgebouwd
           met WordPress en Elementor, die ook in dit portfolio te vinden is.
         </p>
         <p className="mb-4 px-2 lg:px-3">
-          Naast mijn interesse in het coachen en begeleiden van mensen, (gezond)
-          eten en ICT, geniet ik enorm van de natuur. Ik woon met mijn gezin 
+          Naast deze interesses houd ik ook enorm van de natuur. Ik woon met mijn gezin 
           dichtbij de natuur en wandel regelmatig op de Drentse heide. Wandelen 
           is voor mij een geweldige manier om te bewegen en te ontspannen.
         </p>
         <p className=" mb-4 px-2 lg:px-3">
           Wat ik het leukst vind in mijn werk, is ingewikkelde
           zaken eenvoudiger maken voor mensen. ICT is voor mij een
-          nieuw werkveld waarmee ik met veel interesse kennis heb gemaakt. 
-          Het geeft me als Gewichtsconsulent veel voldoening om mensen te helpen een gezonde 
+          nieuw werkveld waar ik met veel interesse kennis mee heb gemaakt. 
+          Als Gewichtsconsulent geeft het me veel voldoening om mensen te helpen een gezonde 
           relatie met eten en zichzelf ontwikkelen. Daarnaast lijkt het me ook leuk 
           om anderen te helpen met het realiseren van een mooie website. Een rol op een 
           ICT-gerelateerde Servicedesk of als Digicoach zou ook goed bij me passen.
