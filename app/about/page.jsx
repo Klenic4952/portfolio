@@ -6,11 +6,12 @@ export default function About() {
       </div>
       <div className="p-2 rounded-xl border-solid border-4 border-beige">
         <p className="mb-4 pt-2 px-2 lg:px-3">
-          Na een loopbaan van bijna 25 jaar als adviseur in de financiële
-          dienstverlening, besloot ik mijn passie te volgen en startte ik een
-          praktijk als Gewichtsconsulent. Voor mijn praktijk, SMART Voedingsadvies,
-          creëerde ik een website met WordPress. Dit vond ik zo boeiend dat ik besloot
-          een opleiding Front-End Development te volgen bij Winc Academy.
+          Na een loopbaan van bijna 22 jaar als adviseur in de financiële
+          dienstverlening, begon ik in 2019 aan een hybride loopbaan. Naast mijn werk
+          als Financieel Adviseur bij de Rabobank startte ik een praktijk als Gewichtsconsulent. Voor mijn praktijk, 
+          SMART Voedingsadvies, creëerde ik een website met WordPress. Dit vond ik zo boeiend dat ik besloot
+          een opleiding Front-End Development te volgen bij Winc Academy. Inmiddels 
+          had ik in 2021 mijn baan bij de Rabobank opgezegd. 
         </p>
         <p className="mb-4 px-2 lg:px-3">
           Op het eerste gezicht lijkt dit misschien een drastische carrièreswitch, 
@@ -19,7 +20,8 @@ export default function About() {
           met complexe onderwerpen. Daarnaast was ik altijd handig met systemen en software, 
           wat goed van pas kwam in de financiële dienstverlening. 
           Als Gewichtsconsulent begeleid ik mensen op het gebied 
-          van gezond eten waarbij mijn digitale vaardighed opnieuw nuttig bleken. 
+          van gezond eten waarbij ik mijn advieservaring goed kan gebruiken.
+          Maar ook mijn digitale vaardigheden bleken opnieuw nuttig. 
           Zo ontwierp ik niet alleen een website, maar maakte ik ook gebruik van een 
           online intakeformulier, online agenda en nieuwsbrief.
         </p>
@@ -30,7 +32,7 @@ export default function About() {
           met WordPress en Elementor, die ook in dit portfolio te vinden is.
         </p>
         <p className="mb-4 px-2 lg:px-3">
-          Naast deze interesses houd ik ook enorm van de natuur. Ik woon met mijn gezin 
+          Naast deze interesses houd ik enorm van de natuur. Ik woon met mijn gezin 
           dichtbij de natuur en wandel regelmatig op de Drentse heide. Wandelen 
           is voor mij een geweldige manier om te bewegen en te ontspannen.
         </p>
@@ -39,9 +41,10 @@ export default function About() {
           zaken eenvoudiger maken voor mensen. ICT is voor mij een
           nieuw werkveld waar ik met veel interesse kennis mee heb gemaakt. 
           Als Gewichtsconsulent geeft het me veel voldoening om mensen te helpen een gezonde 
-          relatie met eten en zichzelf ontwikkelen. Daarnaast lijkt het me ook leuk 
-          om anderen te helpen met het realiseren van een mooie website. Een rol op een 
-          ICT-gerelateerde Servicedesk of als Digicoach zou ook goed bij me passen.
+          relatie met eten en zichzelf ontwikkelen. 
+          Daarnaast zet ik graag een stap in mijn hybride loopbaan. Ik heb nu 
+          junior-ervaring in het realiseren of onderhouden van websites. Maar ik denk ook
+          aan een ICT-gerelateerde Servicedesk of bijvoorbeeld aan de rol van Digicoach. 
         </p>
         <p className=" mb-4 px-2 lg:px-3">
           Kort samengevat: je vindt in mij een combinatie van sociale en communicatieve vaardigheden
