@@ -1,4 +1,4 @@
-import CreateForm from "./CreateForm";
+import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (
@@ -11,7 +11,7 @@ export default function Contact() {
         gewoon even laten weten wat je van mijn portfolio vindt: ik hoor het
         graag!
       </p>
-      <CreateForm />
+      <ContactForm />
     </div>
   );
 }
