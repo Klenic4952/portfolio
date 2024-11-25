@@ -4,7 +4,7 @@ export default function ContactForm() {
   return (
     <form
       name="contact"
-      action="/succes"
+      action="/success"
       method="POST"
       data-netlify="true"
       className="bg-beige rounded-xl p-5 my-5"
