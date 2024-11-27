@@ -27,7 +27,7 @@ export default function Education() {
           className="rounded-lg mx-auto mt-10"
           sizes="(min-width: 1340px) 325px, (min-width: 1040px) calc(30vw - 71px), (min-width: 780px) calc(70vw - 123px), calc(70vw - 90px)"
           style={{
-            width: "65%",
+            width: "75%",
             height: "auto",
           }}
         />
