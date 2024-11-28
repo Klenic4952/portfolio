@@ -7,3 +7,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
    
   module.exports = withBundleAnalyzer(nextConfig)
  
+  module.exports = {
+    webpack: (config, options) => {
+      config.resolve.alias['@hooks'] = path.join(__dirname, 'hooks');
+      return config;
+    },
+  }; 
