@@ -10,7 +10,7 @@ export default function About() {
           dienstverlening, begon ik in 2019 aan een hybride loopbaan. Naast mijn werk
           als Financieel Adviseur bij de Rabobank startte ik een praktijk als Gewichtsconsulent. Voor mijn praktijk,  
           <a href="https://smartvoedingsadvies.nl" className="text-beigelight" target="blank"> SMART Voedingsadvies</a>, 
-          creëerde ik een website met WordPress. Dit vond ik zo boeiend dat ik besloot
+          creëerde ik een website met WordPress. Dit vond ik zo interessant dat ik besloot
           een opleiding Front-End Development te volgen bij <a href="https://www.wincacademy.nl/opleidingen/front-end-development" 
           className="text-beigelight"target="blank">Winc Academy</a>. Inmiddels 
           had ik in 2021 mijn baan bij de Rabobank opgezegd. 
