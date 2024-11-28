@@ -35,7 +35,8 @@ export default function About() {
           className="text-beigelight" target="blank">Tailwind CSS</a>. 
           Vervolgens heb ik de website voor mijn praktijk opnieuw opgebouwd
           met <a href="https://wordpress.com/nl/" className="text-beigelight" target="blank">WordPress </a> 
-          en <a href="https://elementor.com/" className="text-beigelight" target="blank"> Elementor</a>, die ook in dit portfolio te vinden is.
+          en <a href="https://elementor.com/" className="text-beigelight" target="blank"> Elementor</a>, 
+          die ook in dit portfolio te vinden is. 
         </p>
         <p className="mb-4 px-2 lg:px-3">
           Naast deze interesses houd ik enorm van de natuur. Ik woon met mijn gezin 
@@ -44,13 +45,12 @@ export default function About() {
         </p>
         <p className=" mb-4 px-2 lg:px-3">
           Wat ik het leukst vind in mijn werk, is ingewikkelde
-          zaken eenvoudiger maken voor mensen. ICT is voor mij een
-          nieuw werkveld waar ik met veel interesse kennis mee heb gemaakt. 
-          Als Gewichtsconsulent geeft het me veel voldoening om mensen te helpen een gezonde 
-          relatie met eten en zichzelf ontwikkelen. 
-          Daarnaast zet ik graag een stap in mijn hybride loopbaan. Ik heb nu 
-          junior-ervaring in het realiseren of onderhouden van websites. Maar ik denk ook
-          aan een ICT-gerelateerde Servicedesk of bijvoorbeeld aan de rol van Digicoach. 
+          zaken eenvoudiger maken voor mensen. Ik zet mijn ervaring als klantadviseur 
+          graag in voor mijn praktijk SMART Voedingsadvies. Daarnaast heb ik 24 tot 28 uur 
+          per week beschikbaar om mijn hybride loopbaan invulling te geven. ICT is voor mij een
+          nieuw werkveld waar ik met veel interesse kennis mee heb gemaakt. Momenteel onderzoek 
+          ik de mogelijkheid om WordPress-websites te gaan maken voor klanten. Maar ik zou ook passen 
+          op een ICT-gerelateerde Servicedesk of in de rol van Digicoach. 
         </p>
         <p className=" mb-4 px-2 lg:px-3">
           Kort samengevat: je vindt in mij een combinatie van sociale en communicatieve vaardigheden
