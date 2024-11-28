@@ -1,20 +1,23 @@
 import { Icons } from "./icons";
 
-async function getSkills(skills) {
-  const res = await fetch(`http://localhost:4000/${skills}`);
+async function getSkills() {
+  const skills = await fetch ("https://my-json-server.typicode.com/Klenic4952/skills/")
+  const skillswinc = await fetch("https://my-json-server.typicode.com/Klenic4952/skills/skillswinc");
+  const skillscurrent = await fetch("https://my-json-server.typicode.com/Klenic4952/skills/skillscurrent");
 
-  if (!res.ok) {
-    throw new Error(`Failed to fetch ${skills}`);
+  if (!skills.ok) {
+    throw Error("Could not find skills")
   }
 
-  return res.json();
+  return {
+    skillswinc: await skillswinc.json(),
+    skillscurrent: await skillscurrent.json(),
+  }
 }
 
 export default async function SkillsList() {
-  const [skillswinc, skillscurrent] = await Promise.all([
-    getSkills("skillswinc"),
-    getSkills("skillscurrent")
-  ]);
+  // Haal de volledige JSON en split de data in skillswinc en skillscurrent
+  const { skillswinc, skillscurrent } = await getSkills();
 
   return (
     <>
